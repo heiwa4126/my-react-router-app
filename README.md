@@ -1,5 +1,29 @@
 # Welcome to React Router!
 
+React Router v7 の Framework mode (Remix v2) の
+[Installation | React Router](https://reactrouter.com/start/framework/installation)
+を、npm でそのままやってみたもの。
+
+Docker だけ Google の distroless に入れ替えてある。
+
+## メモ
+
+```sh
+npx create-react-router@latest my-react-router-app
+```
+
+すると Vite と TailWindCSS4 が入る。
+
+README には書いてないけど
+
+```sh
+npm run build && npm start
+```
+
+で、Docker なしでもローカルで production 版が動く。
+
+## 以下オリジナルのまま
+
 A modern, production-ready template for building full-stack React applications using React Router.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
