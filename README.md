@@ -12,7 +12,9 @@ Docker だけ Google の distroless に入れ替えてある。
 npx create-react-router@latest my-react-router-app
 ```
 
-すると Vite と TailWindCSS4 が入る。
+すると Vite 5 と TailWindCSS 4 と React 19 が最初から入る。
+
+(Vite は 6 にした)。
 
 README には書いてないけど
 
@@ -21,6 +23,10 @@ npm run build && npm start
 ```
 
 で、Docker なしでもローカルで production 版が動く。
+
+## TODO
+
+pnpm か bun にしたい (Dockerfile がちょっとめんどう)
 
 ## 以下オリジナルのまま
 
